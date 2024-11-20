@@ -197,6 +197,7 @@
             button2.Text = "        Eat-In";
             button2.TextImageRelation = TextImageRelation.ImageBeforeText;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -387,8 +388,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(921, 581);
-            Controls.Add(mySecondCustmControl1);
-            Controls.Add(firstCustomControl1);
             Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(button11);
@@ -399,6 +398,8 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Controls.Add(firstCustomControl1);
+            Controls.Add(mySecondCustmControl1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
